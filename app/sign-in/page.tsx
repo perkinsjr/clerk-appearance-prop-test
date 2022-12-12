@@ -1,0 +1,11 @@
+import { SignIn } from "@clerk/nextjs/app-beta/client";
+import { dark } from "@clerk/themes";
+export default function Page() {
+  return (
+    <SignIn
+      appearance={{
+        baseTheme: dark,
+      }}
+    />
+  );
+}
